@@ -126,7 +126,7 @@ export default function ExpenseScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.heading}>Student Expense Tracker</Text>
+      <Text style={styles.heading}>Student Expense Tracker Updated by Lukane Wilkins</Text>
 
       {/* PIE CHART SECTION */}
       {expenses.length > 0 ? (
@@ -257,4 +257,4 @@ const styles = StyleSheet.create({
     marginTop: 12,
     fontSize: 12,
   },
-});
+});n
